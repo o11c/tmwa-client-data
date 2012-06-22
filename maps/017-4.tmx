@@ -3,7 +3,7 @@
  <properties>
   <property name="minimap" value="graphics/minimaps/017-4.png"/>
   <property name="music" value="finalman_and_yakslem-cavesong.ogg"/>
-  <property name="name" value="Deep Woodland Cave"/>
+  <property name="name" value="Hideout"/>
  </properties>
  <tileset firstgid="1" name="Cave" tilewidth="32" tileheight="32">
   <image source="../graphics/tiles/cave.png" width="512" height="256"/>
@@ -425,61 +425,68 @@
 </data>
  </layer>
  <objectgroup name="Objects" width="250" height="75">
-  <object type="warp" x="6432" y="800" width="32" height="32">
+  <object name="To Labyrinth" type="warp" x="6432" y="800" width="32" height="32">
    <properties>
-    <property name="dest_map" value=""/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
+    <property name="dest_map" value="017-4"/>
+    <property name="dest_x" value="5536"/>
+    <property name="dest_y" value="1472"/>
    </properties>
   </object>
-  <object type="warp" x="2912" y="832" width="32" height="32">
+  <object name="To Cave" type="warp" x="2912" y="832" width="32" height="32">
    <properties>
-    <property name="dest_map" value=""/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
+    <property name="dest_map" value="017-3"/>
+    <property name="dest_x" value="2208"/>
+    <property name="dest_y" value="1632"/>
    </properties>
   </object>
-  <object type="warp" x="3936" y="832" width="32" height="32">
+  <object name="To Cave" type="warp" x="3936" y="832" width="32" height="32">
    <properties>
-    <property name="dest_map" value=""/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
+    <property name="dest_map" value="017-3"/>
+    <property name="dest_x" value="1024"/>
+    <property name="dest_y" value="2208"/>
    </properties>
   </object>
-  <object type="warp" x="5312" y="832" width="32" height="32">
+  <object name="To Cave" type="warp" x="5312" y="832" width="32" height="32">
    <properties>
-    <property name="dest_map" value=""/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
+    <property name="dest_map" value="017-3"/>
+    <property name="dest_x" value="2624"/>
+    <property name="dest_y" value="2432"/>
    </properties>
   </object>
-  <object type="warp" x="960" y="1504" width="32" height="32">
+  <object name="To Cave" type="warp" x="960" y="1504" width="32" height="32">
    <properties>
-    <property name="dest_map" value=""/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
+    <property name="dest_map" value="017-3"/>
+    <property name="dest_x" value="928"/>
+    <property name="dest_y" value="1504"/>
    </properties>
   </object>
-  <object type="warp" x="1664" y="832" width="32" height="32">
+  <object name="To Cave" type="warp" x="1664" y="800" width="32" height="32">
    <properties>
-    <property name="dest_map" value=""/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
+    <property name="dest_map" value="017-3"/>
+    <property name="dest_x" value="2016"/>
+    <property name="dest_y" value="864"/>
    </properties>
   </object>
-  <object type="warp" x="2656" y="1344" width="32" height="32">
+  <object name="To Cave" type="warp" x="2656" y="1312" width="32" height="32">
    <properties>
-    <property name="dest_map" value=""/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
+    <property name="dest_map" value="017-3"/>
+    <property name="dest_x" value="1856"/>
+    <property name="dest_y" value="1952"/>
    </properties>
   </object>
-  <object type="warp" x="5536" y="1536" width="32" height="32">
+  <object name="To Hideout" type="warp" x="5536" y="1504" width="32" height="32">
    <properties>
-    <property name="dest_map" value=""/>
-    <property name="dest_x" value=""/>
-    <property name="dest_y" value=""/>
+    <property name="dest_map" value="017-4"/>
+    <property name="dest_x" value="6432"/>
+    <property name="dest_y" value="832"/>
    </properties>
   </object>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="928" y="1568" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="1696" y="768" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2624" y="1280" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="2944" y="896" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="3904" y="896" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="5344" y="896" width="32" height="32"/>
+  <object name="graphics/particles/flame.particle.xml" type="particle_effect" x="5568" y="1440" width="32" height="32"/>
  </objectgroup>
 </map>
