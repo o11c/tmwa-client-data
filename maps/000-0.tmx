@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="51" height="51" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="music" value="Richard_Wagner_-_Ride_of_the_Valkyries.ogg"/>
+  <property name="name" value="Hell"/>
+ </properties>
+ <tileset firstgid="1" source="../tilesets/collision.tsx"/>
+ <tileset firstgid="3" source="../tilesets/cave.tsx"/>
+ <layer name="Ground" width="51" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3UPQoCMRCG4ak2nsB4AvGnF8VGLUSxUe9/GCfgsmFYknTOyls8EKb6Qr5JFJEIAAAAAIATa7VpsHWQteagTuqsLoXz0UHWmrt6qpd6F84PB1lrFio0mDvIWpJ2ZdV4l6X43pm0K/tv1k7NTP58thPfO5N25SZDh2zf8tlVfO9Mnj11yPbNzrzvTN6hvm9hZNY5yNr6NqlDfd/CyMz7m9ieTflP/re7xMa7/DojAAAAAACYhg9T9F5opCgAAA==
+  </data>
+ </layer>
+ <layer name="Ground2" width="51" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3RsQ0AIAwDwUzCjgyQ3WmoqEEBdNd8a8kRAAAAAMApufRlbbaXrtjjp18AAAAA4GYDR72CKaQoAAA=
+  </data>
+ </layer>
+ <layer name="Fringe" width="51" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3BMQEAAADCoPVPbQlPoAAAAAAAAAAAAAD+BgsQa8ykKAAA
+  </data>
+ </layer>
+ <layer name="Over" width="51" height="51">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3TMQrAMAgFUPf0Aknvf882dOmSYIcOwnsgiJOCPwIAAACAyvpdZ2IGX7TI/9D8t+PHXaCCd2b6pq+SlXnPiGffVQ8AAACQcQFuWxQqpCgAAA==
+  </data>
+ </layer>
+ <layer name="Collision" width="51" height="51" visible="0">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAA+3SQQpAIQgFQOn+h/7bTxS6s2iEAavNExsRMQAAAAAKotDfoFLdGV+dZTXX6v10c9bsfKrVDnZ33Vlf2suc9V+3zpJVd8YXZ5n/0a4HAAAAyHx89PjmpCgAAA==
+  </data>
+ </layer>
+</map>

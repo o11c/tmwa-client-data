@@ -537,6 +537,11 @@
   <npc id="218">
     <sprite variant="2">npcs/hugenpcs.xml</sprite>
   </npc>
+  <!-- Death -->
+  <npc id="219">
+    <!-- Reuse mob animation - it has the same fields (and more). -->
+    <sprite>monsters/reaper.xml</sprite>
+  </npc>
   <!-- ***251-299 reserved for pose/outfit NPCs using sprite layering and image dyeing techniques. Because all 7 image channels are active, #ffffff (pure white) is a placeholder color for image dyeing channels not used in the outfit.  The order of image channels is: White, Yellow, Green, Cyan, Blue, Magenta and Red.*** -->
   <!-- Christmas Saboteur -->
   <npc id="251">
