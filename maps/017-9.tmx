@@ -261,5 +261,6 @@
     <property name="dest_tile_y" value="109"/>
    </properties>
   </object>
+  <object name="Stone Board" type="anchor" x="832" y="768" width="32" height="32"/>
  </objectgroup>
 </map>
